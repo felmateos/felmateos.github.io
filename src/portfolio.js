@@ -36,10 +36,8 @@ const socialMediaLinks = {
   github: "https://github.com/felmateos",
   linkedin: "https://www.linkedin.com/in/felmateos/",
   gmail: "felmateos@usp.br",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@felmateos",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  kaggle: "https://www.kaggle.com/felmateos",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -122,7 +120,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -146,37 +144,48 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Pesquisador Bolsista",
-      company: "C4AI",
-      companylogo: require("./assets/images/logoC4ai.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        role: "Diretor de Gestão de Pessoas",
+        company: "Hype",
+        companylogo: require("./assets/images/logoHype.png"),
+        date: "Set 2022 – Fev 2024",
+        desc: "Entidade da Universidade de São Paulo que visa difundir a Ciência de Dados e Inteligência Artificial no Campus da Zona Leste.",
+        descBullets: [
+          "Gestão de atividades, gestão de tempo, elaboração de dashboards e planilhas",
+          "Coleta, tratamento e análise de dados, treinamento e avaliação de Modelos de Inteligência Artificial"
+        ]
     },
     {
       role: "Monitor de Disciplina",
       company: "Diretório Acadêmico",
       companylogo: require("./assets/images/logoDasi.jpg"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Mar 2023 – Jul 2023",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Monitoria realizada para calouros de Sistemas de Informação da USP Leste",
+        "Pesquisa, elaboração de material didático e realização de sessões de exercícios práticos"
+      ]
     },
     {
-      role: "Diretor de Gestão de Pessoas",
-      company: "Hype",
-      companylogo: require("./assets/images/logoHype.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
-    ,
+        role: "Pesquisador Bolsista",
+        company: "C4AI",
+        companylogo: require("./assets/images/logoC4ai.png"),
+        date: "Set 2023 – Atual",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        descBullets: [
+          "Iniciação Científica em classificação de etiquetas morfossintáticas em textos sobre a vacinação contra a COVID-19",
+          "Análise e tratamento de dados, rotulação usando ferramentas de PLN (Processamento de Linguagem Natural) e análise de distribuição"
+        ]
+    },
     {
-      role: "Diretor de Gestão de Pessoas",
-      company: "Hype",
-      companylogo: require("./assets/images/logoHype.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Estagiário de Ciência de Dados",
+      company: "Genial",
+      companylogo: require("./assets/images/logoGenial.jpg"),
+      date: "Abr 2024 – Atual",
+      desc: "Entidade da Universidade de São Paulo que visa difundir a Ciência de Dados e Inteligência Artificial no Campus da Zona Leste.",
+      descBullets: [
+        "Apoio a analistas no desenvolvimento, implantação e monitoramento de modelos de Data Science",
+        "Extração de bases de dados para análises e modelos. Preparação de códigos e rotinas de apoio aos modelos e monitoramento de qualidade de dados"
+      ]
     }
   ]
 };
