@@ -296,7 +296,7 @@ const blogSection = {
   title: "Blogs 📓",
   subtitle:
     "De vez em quando gosto de fazer uns posts no Medium. 😁",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://medium.com/@felmateos/os-perigos-do-mindset-fixo-80253fe86735",
