@@ -23,7 +23,7 @@ const greeting = {
   username: "felmateos",
   title: "Oie, me chamo Felipe Castro",
   subTitle: emoji(
-    "Sou aficionado por Ciência de Dados 🚀 e tenho exeriência com suco de fruta."
+    "Sou curioso 🙈, aficionado por Ciência de Dados 🎲 e aberto para novas experiências 🚀"
   ),
   resumeLink:
     "https://github.com/felmateos/USP/blob/main/RESUME/Curriculo.pdf", // Set to empty to hide the button
@@ -47,15 +47,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "O que eu faço?",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SEMPRE EM BUSCA DE USAR A TECNOLOGIA PARA SOLUCIONAR PROBLEMAS DO MUNDO REAL! 🌎✨",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Analiso conjuntos de dados e treino modelos de Inteligência Artificial"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Crio interfaces interativas e intuitivas"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -67,6 +64,10 @@ https://fontawesome.com/icons?d=gallery */
         fontAwesomeClassname: "fab fa-python"
     },
     {
+        skillName: "databricks",
+        fontAwesomeClassname: "fas fa-database"
+    },
+    {
         skillName: "docker",
         fontAwesomeClassname: "fab fa-docker"
     },
@@ -75,12 +76,16 @@ https://fontawesome.com/icons?d=gallery */
         fontAwesomeClassname: "fab fa-java"
     },
     {
-        skillName: "sql-database",
+        skillName: "SQL",
         fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "git",
       fontAwesomeClassname: "fab fa-git"
+    },
+    {
+        skillName: "Streamlit",
+        fontAwesomeClassname: "fas fa-crown"
     },
     {
       skillName: "trello",
@@ -100,19 +105,25 @@ const educationInfo = {
       logo: require("./assets/images/logoUSP.png"),
       subHeader: "Bacharelado em Sistemas de Informação",
       duration: "Fevereiro 2020 - Dezembro 2024",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Participação em Entidade Estudantil, Realização de Monitoria e Iniciação Científica",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscsing elita"
+        "Algoritmos e Estruturas de Dados: 9.5",
+        "Qualidade de Software: 9.2",
+        "Métodos Quantitativos Aplicados à Administração de Empresas: 9.0",
+        "Análise, Projeto e Interface Humano-Computador: 9.0",
       ]
     },
     {
       schoolName: "ETEC Prof. Camargo Aranha",
       logo: require("./assets/images/logoCps.png"),
       subHeader: "Curso de Informática Integrado ao Ensino Médio",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "Fevereiro 2017 - Dezembro 2019",
+      descBullets: [
+        "Desenvolvimento de aplicações web",
+        "Desenvolvimento de aplicações móveis",
+        "Banco de Dados Relacional SQL",
+        "Pacote Office"
+    ]
     }
   ]
 };
@@ -145,7 +156,7 @@ const workExperiences = {
   experience: [
     {
         role: "Diretor de Gestão de Pessoas",
-        company: "Hype",
+        company: "Hype - Ciência de Dados e ML",
         companylogo: require("./assets/images/logoHype.png"),
         date: "Set 2022 – Fev 2024",
         desc: "Entidade da Universidade de São Paulo que visa difundir a Ciência de Dados e Inteligência Artificial no Campus da Zona Leste.",
@@ -159,7 +170,7 @@ const workExperiences = {
       company: "Diretório Acadêmico",
       companylogo: require("./assets/images/logoDasi.jpg"),
       date: "Mar 2023 – Jul 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Durante o primeiro semestre de 2023, tive a oportunidade de ministrar sessões semanais didáticas para disciplina \"Introdução à Programação\".",
       descBullets: [
         "Monitoria realizada para calouros de Sistemas de Informação da USP Leste",
         "Pesquisa, elaboração de material didático e realização de sessões de exercícios práticos"
@@ -170,18 +181,18 @@ const workExperiences = {
         company: "C4AI",
         companylogo: require("./assets/images/logoC4ai.png"),
         date: "Set 2023 – Atual",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        desc: "Financiado pela parceria USP+IBM+FAPESP, neste projeto de pesquisa em Processamento de Língua Natural sou responsável pela anotação morfossintática de tweets de políticos brasileiros sobre vacinação contra a Covid-19..",
         descBullets: [
-          "Iniciação Científica em classificação de etiquetas morfossintáticas em textos sobre a vacinação contra a COVID-19",
-          "Análise e tratamento de dados, rotulação usando ferramentas de PLN (Processamento de Linguagem Natural) e análise de distribuição"
+          "Análise e tratamento de dados, rotulação usando ferramentas de PLN (Processamento de Linguagem Natural)",
+          "Análise de distribuição de rótulos entre diferentes corpora"
         ]
     },
     {
       role: "Estagiário de Ciência de Dados",
-      company: "Genial",
+      company: "Genial Investimentos",
       companylogo: require("./assets/images/logoGenial.jpg"),
       date: "Abr 2024 – Atual",
-      desc: "Entidade da Universidade de São Paulo que visa difundir a Ciência de Dados e Inteligência Artificial no Campus da Zona Leste.",
+      desc: "Genial Investimentos é uma plataforma financeira líder no mercado brasileiro, oferecendo uma ampla gama de produtos e serviços de investimento. ",
       descBullets: [
         "Apoio a analistas no desenvolvimento, implantação e monitoramento de modelos de Data Science",
         "Extração de bases de dados para análises e modelos. Preparação de códigos e rotinas de apoio aos modelos e monitoramento de qualidade de dados"
@@ -201,29 +212,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projetos ✏️",
+  subtitle: "ALGUNS DOS PROJETOS QUE PARTICIPEI DURANTE MINHA TRAGETÓRIA",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/eachflixLogo.png"),
+      projectName: "EACHFLIX",
+      projectDesc: "Projeto desenvolvido para a disciplina \"Análise de Redes Sociais\" constituindo de uma interface que permite ao usuário visualizar recomendações de filmes que se adequem aos perfis da base de dados.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Dar uma olhada",
+          url: "https://huggingface.co/spaces/felmateos/movie-recommender-system"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ageLogo.png"),
+      projectName: "Classificador de Faixa Etária",
+      projectDesc: "Projeto desenvolvido para a disciplina \"Processamento de Lígua Natural\" constituindo de notebook jupyter que classifica a qual faixa etária que alguém pertence baseando-se em seu texto.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Dar uma olhada",
+          url: "https://github.com/felmateos/age-group-classifier"
         }
       ]
     }
@@ -235,56 +246,43 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Realizações e Certificações 🏆 "),
+  //subtitle:
+  //  "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "1º Lugar em Capture The Flag",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Capture The Flag foi uma competição aberta para toda a comunidade da USP, em que os participantes tinham que resolver desafios de Segurança da Informação usando técnicas de Hacking. Minha equipe e eu fomos campeões da edição de 2022",
+      image: require("./assets/images/eitsLogo.png"),
+      imageAlt: "EitS Logo",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
 
+      ]
+    },
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+        title: "CS50's Introduction to Programming with Python",
+        subtitle: "Certificação que compreende conceitos fundamentais da linguagem de Programação Python",
+        image: require("./assets/images/harvardLogo.png"),
+        imageAlt: "Harvard Logo",
+        footerLink: [
+          {
+            name: "Certificado",
+            url: "https://certificates.cs50.io/a5ff5838-581e-4eb5-abea-986129b1eeb8.pdf?size=letter"
+          }
+        ]
+    },
+    {
+      title: "SQL for Data Science",
+      subtitle:
+        "Certificação que compreende conceitos fundamentais da linguagem SQL, com ênfase em queries para ciência de dados",
+      image: require("./assets/images/UCDAVISLogo.png"),
+      imageAlt: "UCDAVIS Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certificado",
+          url: "https://www.coursera.org/account/accomplishments/verify/5SP3KNA3334L"
         }
       ]
     }
@@ -297,20 +295,20 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "De vez em quando gosto de fazer uns posts no Medium. 😁",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@felmateos/os-perigos-do-mindset-fixo-80253fe86735",
+      title: "Os perigos do Mindset Fixo",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Desculpe-me se te assustei com o título — que a primeira vista parece um pouco sensacionalista. Mas é por uma bo..."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@felmateos/storytelling-a-arte-de-contar-hist%C3%B3rias-8e1875384e83",
+      title: "Storytelling: a arte de contar histórias",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Contar histórias é uma prática antiga que sempre esteve presente em nossa cultura. Desde as pinturas nas cavernas, pas..."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -319,17 +317,17 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Palestras",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "EU AMO COMPARTILHAR O QUE APRENDO (E ATÉ QUE VALE A PENA PARA PERDER A TIMIDEZ 😅)"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Revelando padrões ocultos - análises e aplicações de dados das redes sociais",
+      subtitle: "Campus Party 2023 #CPBR15",
+      slides_url: "https://docs.google.com/presentation/d/1Uwdp4gWMavoBY203S5cOgrObSxfjdpevxdaQZcw88xE/edit?usp=sharing",
+      event_url: "https://brasil.campus-party.org/"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -339,28 +337,27 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "MINHA PARTICIPAÇÃO NO PODCAST \"FALA, CORUJA!\"",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://open.spotify.com/embed/episode/5JnqTgrAFoSAtB9Uw8K5AD?utm_source=generator"
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Entre em Contato ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Sinta-se a vontade para falar comigo! 😎",
+  email_address: "felmateos@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
