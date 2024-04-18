@@ -293,7 +293,7 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Blogs 📓",
   subtitle:
     "De vez em quando gosto de fazer uns posts no Medium. 😁",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
@@ -317,7 +317,7 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "Palestras",
+  title: "Palestras 🎤",
   subtitle: emoji(
     "EU AMO COMPARTILHAR O QUE APRENDO (E ATÉ QUE VALE A PENA PARA PERDER A TIMIDEZ 😅)"
   ),
