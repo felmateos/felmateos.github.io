@@ -156,7 +156,7 @@ const workExperiences = {
   experience: [
     {
         role: "Diretor de Gestão de Pessoas",
-        company: "Hype - Ciência de Dados e ML",
+        company: "Hype - Data & AI",
         companylogo: require("./assets/images/logoHype.png"),
         date: "Set 2022 – Fev 2024",
         desc: "Entidade da Universidade de São Paulo que visa difundir a Ciência de Dados e Inteligência Artificial no Campus da Zona Leste.",
