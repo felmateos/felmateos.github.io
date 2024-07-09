@@ -155,17 +155,6 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-        role: "Diretor de Gestão de Pessoas",
-        company: "Hype - Data & AI",
-        companylogo: require("./assets/images/logoHype.png"),
-        date: "Set 2022 – Fev 2024",
-        desc: "Entidade da Universidade de São Paulo que visa difundir a Ciência de Dados e Inteligência Artificial no Campus da Zona Leste.",
-        descBullets: [
-          "Gestão de atividades, gestão de tempo, elaboração de dashboards e planilhas",
-          "Coleta, tratamento e análise de dados, treinamento e avaliação de Modelos de Inteligência Artificial"
-        ]
-    },
-    {
       role: "Monitor de Disciplina",
       company: "Diretório Acadêmico",
       companylogo: require("./assets/images/logoDasi.jpg"),
@@ -181,7 +170,7 @@ const workExperiences = {
         company: "C4AI",
         companylogo: require("./assets/images/logoC4ai.png"),
         date: "Set 2023 – Atual",
-        desc: "Financiado pela parceria USP+IBM+FAPESP, neste projeto de pesquisa em Processamento de Língua Natural sou responsável pela anotação morfossintática de tweets de políticos brasileiros sobre vacinação contra a Covid-19..",
+        desc: "Financiado pela parceria USP+IBM+FAPESP, neste projeto de pesquisa em Processamento de Língua Natural sou responsável pela anotação morfossintática de tweets de políticos brasileiros sobre vacinação contra a Covid-19.",
         descBullets: [
           "Análise e tratamento de dados, rotulação usando ferramentas de PLN (Processamento de Linguagem Natural)",
           "Análise de distribuição de rótulos entre diferentes corpora"
