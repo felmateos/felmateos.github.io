@@ -188,14 +188,14 @@ const workExperiences = {
         ]
     },
     {
-      role: "Estagiário de Ciência de Dados",
-      company: "Genial Investimentos",
-      companylogo: require("./assets/images/logoGenial.jpg"),
-      date: "Abr 2024 – Atual",
-      desc: "Genial Investimentos é uma plataforma financeira líder no mercado brasileiro, oferecendo uma ampla gama de produtos e serviços de investimento. ",
+      role: "Estagiário em Ciência de Dados",
+      company: "Itaú Unibanco",
+      companylogo: require("./assets/images/logoItau.png"),
+      date: "Jun 2024 – Atual",
       descBullets: [
-        "Apoio a analistas no desenvolvimento, implantação e monitoramento de modelos de Data Science",
-        "Extração de bases de dados para análises e modelos. Preparação de códigos e rotinas de apoio aos modelos e monitoramento de qualidade de dados"
+        "Manipulação, tratamento de bases de dados e desenvolvimento de modelos preditivos de séries temporais;",
+        "Extração de informações de documentos e imagens por meio de OCR e auxiliar a equipe com projetos de Inteligência Artificial Generativa;",
+        "Desenvolvimento e configuração de esteiras de deploy para os projetos."
       ]
     }
   ]
