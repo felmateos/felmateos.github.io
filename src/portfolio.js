@@ -107,10 +107,11 @@ const educationInfo = {
       duration: "Fevereiro 2020 - Dezembro 2024",
       desc: "Participação em Entidade Estudantil, Realização de Monitoria e Iniciação Científica",
       descBullets: [
+        "Introdução à Ciência de Dados: 10.0",
+        "Experimentação de Aprendizado de Máquina Supervisionado: 9.0",
         "Algoritmos e Estruturas de Dados: 9.5",
         "Qualidade de Software: 9.2",
         "Métodos Quantitativos Aplicados à Administração de Empresas: 9.0",
-        "Análise, Projeto e Interface Humano-Computador: 9.0",
       ]
     },
     {
