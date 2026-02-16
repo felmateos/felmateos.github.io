@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Sou curioso 🙈, aficionado por Ciência de Dados 🎲 e aberto para novas experiências 🚀"
   ),
-  resumeLink:
-    "https://github.com/felmateos/USP/blob/main/RESUME/Curriculo.pdf", // Set to empty to hide the button
+  resumeLink: "https://github.com/felmateos/USP/blob/main/RESUME/Curriculo.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -47,13 +46,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "O que eu faço?",
-  subTitle: "SEMPRE EM BUSCA DE USAR A TECNOLOGIA PARA SOLUCIONAR PROBLEMAS DO MUNDO REAL! 🌎✨",
+  subTitle:
+    "SEMPRE EM BUSCA DE USAR A TECNOLOGIA PARA SOLUCIONAR PROBLEMAS DO MUNDO REAL! 🌎✨",
   skills: [
-    emoji("⚡ Transformo problemas complexos em soluções de dados com impacto real."),
-    emoji("⚡ Atuo de ponta a ponta no ciclo de vida de modelos de Machine Learning."),
+    emoji(
+      "⚡ Transformo problemas complexos em soluções de dados com impacto real."
+    ),
+    emoji(
+      "⚡ Atuo de ponta a ponta no ciclo de vida de modelos de Machine Learning."
+    ),
     emoji("⚡ Uno base estatística sólida a execução prática em produção."),
-    emoji("⚡ Conecto decisões técnicas a prioridades estratégicas de negócio."),
-    emoji("⚡ Trabalho com dados reais, escala real e responsabilidade real."),
+    emoji(
+      "⚡ Conecto decisões técnicas a prioridades estratégicas de negócio."
+    ),
+    emoji("⚡ Trabalho com dados reais, escala real e responsabilidade real.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -61,32 +67,32 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-        skillName: "Python",
-        fontAwesomeClassname: "fab fa-python"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-        skillName: "DataBricks",
-        fontAwesomeClassname: "fas fa-database"
+      skillName: "DataBricks",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-        skillName: "Docker",
-        fontAwesomeClassname: "fab fa-docker"
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
     },
     {
-        skillName: "Kedro",
-        fontAwesomeClassname: "fab fa-kaggle"
+      skillName: "Kedro",
+      fontAwesomeClassname: "fab fa-kaggle"
     },
     {
-        skillName: "SQL",
-        fontAwesomeClassname: "fas fa-database"
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
     },
     {
-        skillName: "Streamlit",
-        fontAwesomeClassname: "fas fa-crown"
+      skillName: "Streamlit",
+      fontAwesomeClassname: "fas fa-crown"
     },
     {
       skillName: "Trello",
@@ -106,7 +112,7 @@ const educationInfo = {
       logo: require("./assets/images/logoUSP.png"),
       subHeader: "Mestrado stricto sensu em Sistemas de Informação",
       duration: "Março 2026",
-      desc: "Pesquisa na área de PLN: Detecção de Transtornos de Saúde Mental em Redes Sociais Usando Modelos Clinicamente Motivados",
+      desc: "Pesquisa na área de PLN: Detecção de Transtornos de Saúde Mental em Redes Sociais Usando Modelos Clinicamente Motivados"
     },
     {
       schoolName: "Universidade de São Paulo",
@@ -119,7 +125,7 @@ const educationInfo = {
         "Experimentação de Aprendizado de Máquina Supervisionado: 9.0",
         "Algoritmos e Estruturas de Dados: 9.5",
         "Qualidade de Software: 9.2",
-        "Métodos Quantitativos Aplicados à Administração de Empresas: 9.0",
+        "Métodos Quantitativos Aplicados à Administração de Empresas: 9.0"
       ]
     },
     {
@@ -132,7 +138,7 @@ const educationInfo = {
         "Desenvolvimento de aplicações móveis",
         "Banco de Dados Relacional SQL",
         "Pacote Office"
-    ]
+      ]
     }
   ]
 };
@@ -164,15 +170,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-        role: "Pesquisador Bolsista",
-        company: "C4AI",
-        companylogo: require("./assets/images/logoC4ai.png"),
-        date: "Set 2023 – Ago 2024",
-        desc: "Financiado pela parceria USP+IBM+FAPESP, neste projeto de pesquisa em Processamento de Língua Natural sou responsável pela anotação morfossintática de tweets de políticos brasileiros sobre vacinação contra a Covid-19.",
-        descBullets: [
-          "Análise e tratamento de dados, rotulação usando ferramentas de PLN (Processamento de Linguagem Natural)",
-          "Análise de distribuição de rótulos entre diferentes corpora"
-        ]
+      role: "Pesquisador Bolsista",
+      company: "C4AI",
+      companylogo: require("./assets/images/logoC4ai.png"),
+      date: "Set 2023 – Ago 2024",
+      desc: "Financiado pela parceria USP+IBM+FAPESP, neste projeto de pesquisa em Processamento de Língua Natural sou responsável pela anotação morfossintática de tweets de políticos brasileiros sobre vacinação contra a Covid-19.",
+      descBullets: [
+        "Análise e tratamento de dados, rotulação usando ferramentas de PLN (Processamento de Linguagem Natural)",
+        "Análise de distribuição de rótulos entre diferentes corpora"
+      ]
     },
     {
       role: "Estagiário em Ciência de Dados",
@@ -227,7 +233,8 @@ const bigProjects = {
     {
       image: require("./assets/images/darknetLogo.png"),
       projectName: "Identificador de Ameaças na Darknet",
-      projectDesc: "O projeto aplica SNN para detecção de ameaças em tráfego de internet criptografado, inspirado em estudo publicado pela Elsevier (Neurocomputing, 2022). Utilizando o dataset CIC-IDS2017, realiza extração de fluxos, rotulação de ataques e balanceamento de classes, com modelagem em PyTorch e otimização via Optuna.",
+      projectDesc:
+        "O projeto aplica SNN para detecção de ameaças em tráfego de internet criptografado, inspirado em estudo publicado pela Elsevier (Neurocomputing, 2022). Utilizando o dataset CIC-IDS2017, realiza extração de fluxos, rotulação de ataques e balanceamento de classes, com modelagem em PyTorch e otimização via Optuna.",
       footerLink: [
         {
           name: "Repositório no GitHub",
@@ -238,7 +245,8 @@ const bigProjects = {
     {
       image: require("./assets/images/ageLogo.png"),
       projectName: "Classificador de Faixa Etária",
-      projectDesc: "O projeto Classificador de Faixa Etária desenvolve um modelo de Processamento de Linguagem Natural (PLN) para prever a faixa etária de uma pessoa com base apenas em seu texto. Utilizando técnicas de machine learning supervisionado, o sistema foi avaliado por meio de acurácia em conjunto de teste e validação cruzada em 10 folds, além de análise por matriz de confusão.",
+      projectDesc:
+        "O projeto Classificador de Faixa Etária desenvolve um modelo de Processamento de Linguagem Natural (PLN) para prever a faixa etária de uma pessoa com base apenas em seu texto. Utilizando técnicas de machine learning supervisionado, o sistema foi avaliado por meio de acurácia em conjunto de teste e validação cruzada em 10 folds, além de análise por matriz de confusão.",
       footerLink: [
         {
           name: "Repositório no GitHub",
@@ -249,7 +257,8 @@ const bigProjects = {
     {
       image: require("./assets/images/incomeLogo.png"),
       projectName: "Predição de Renda por Atributos Demográficos",
-      projectDesc: "O projeto envolve análise exploratória e testes de hipótese, além de um pipeline de ciência de dados para predição de renda a partir de atributos demográficos e ocupacionais, utilizando o framework Kedro e testes com pytest para garantir organização e reprodutibilidade. O problema é tratado como classificação binária, com foco em desempenho e interpretabilidade, avaliando métricas como Precision, Recall e F1-score.",
+      projectDesc:
+        "O projeto envolve análise exploratória e testes de hipótese, além de um pipeline de ciência de dados para predição de renda a partir de atributos demográficos e ocupacionais, utilizando o framework Kedro e testes com pytest para garantir organização e reprodutibilidade. O problema é tratado como classificação binária, com foco em desempenho e interpretabilidade, avaliando métricas como Precision, Recall e F1-score.",
       footerLink: [
         {
           name: "Repositório no GitHub",
@@ -260,10 +269,9 @@ const bigProjects = {
     {
       image: require("./assets/images/itauLogo.png"),
       projectName: "Extrator de Produtos em Textos Corporativos",
-      projectDesc: "Desenvolvi e implementei uma solução de Reconhecimento de Entidades Nomeadas (NER) com Large Language Models (LLMs), incluindo definição de arquitetura, escolha do modelo base e estratégia de fine-tuning, atingindo F1-score de 85%. Integrei um pipeline produtivo com AWS Athena e Amazon SageMaker para extração, processamento, armazenamento e inferência em larga escala, possibilitando a análise mensal de centenas de milhares de textos corporativos. Também construí dashboard analítico no Amazon QuickSight para monitoramento da distribuição das entidades e suporte à tomada de decisão orientada a dados, além de otimizar o rateio de custos de produtos PJ, gerando impacto financeiro estimado em R$ 16 milhões por ano.",
-      footerLink: [
-
-      ]
+      projectDesc:
+        "Desenvolvi e implementei uma solução de Reconhecimento de Entidades Nomeadas (NER) com Large Language Models (LLMs), incluindo definição de arquitetura, escolha do modelo base e estratégia de fine-tuning, atingindo F1-score de 85%. Integrei um pipeline produtivo com AWS Athena e Amazon SageMaker para extração, processamento, armazenamento e inferência em larga escala, possibilitando a análise mensal de centenas de milhares de textos corporativos. Também construí dashboard analítico no Amazon QuickSight para monitoramento da distribuição das entidades e suporte à tomada de decisão orientada a dados, além de otimizar o rateio de custos de produtos PJ, gerando impacto financeiro estimado em R$ 16 milhões por ano.",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -283,21 +291,20 @@ const achievementSection = {
         "Capture The Flag foi uma competição aberta para toda a comunidade da USP, em que os participantes tinham que resolver desafios de Segurança da Informação usando técnicas de Hacking. Minha equipe e eu fomos campeões da edição de 2022",
       image: require("./assets/images/eitsLogo.png"),
       imageAlt: "EitS Logo",
-      footerLink: [
-
-      ]
+      footerLink: []
     },
     {
-        title: "CS50's Introduction to Programming with Python",
-        subtitle: "Certificação que compreende conceitos fundamentais da linguagem de Programação Python",
-        image: require("./assets/images/harvardLogo.png"),
-        imageAlt: "Harvard Logo",
-        footerLink: [
-          {
-            name: "Certificado",
-            url: "https://certificates.cs50.io/a5ff5838-581e-4eb5-abea-986129b1eeb8.pdf?size=letter"
-          }
-        ]
+      title: "CS50's Introduction to Programming with Python",
+      subtitle:
+        "Certificação que compreende conceitos fundamentais da linguagem de Programação Python",
+      image: require("./assets/images/harvardLogo.png"),
+      imageAlt: "Harvard Logo",
+      footerLink: [
+        {
+          name: "Certificado",
+          url: "https://certificates.cs50.io/a5ff5838-581e-4eb5-abea-986129b1eeb8.pdf?size=letter"
+        }
+      ]
     },
     {
       title: "Generative AI",
@@ -346,8 +353,7 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs 📓",
-  subtitle:
-    "De vez em quando gosto de fazer uns posts no Medium. 😁",
+  subtitle: "De vez em quando gosto de fazer uns posts no Medium. 😁",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -376,9 +382,11 @@ const talkSection = {
 
   talks: [
     {
-      title: "Revelando padrões ocultos - análises e aplicações de dados das redes sociais",
+      title:
+        "Revelando padrões ocultos - análises e aplicações de dados das redes sociais",
       subtitle: "Campus Party 2023 #CPBR15",
-      slides_url: "https://docs.google.com/presentation/d/1Uwdp4gWMavoBY203S5cOgrObSxfjdpevxdaQZcw88xE/edit?usp=sharing",
+      slides_url:
+        "https://docs.google.com/presentation/d/1Uwdp4gWMavoBY203S5cOgrObSxfjdpevxdaQZcw88xE/edit?usp=sharing",
       event_url: "https://brasil.campus-party.org/"
     }
   ],
@@ -389,7 +397,7 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "MINHA PARTICIPAÇÃO NO PODCAST \"FALA, CORUJA!\"",
+  subtitle: 'MINHA PARTICIPAÇÃO NO PODCAST "FALA, CORUJA!"',
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
@@ -400,8 +408,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Entre em Contato ☎️"),
-  subtitle:
-    "Sinta-se a vontade para falar comigo! 😎",
+  subtitle: "Sinta-se a vontade para falar comigo! 😎",
   email_address: "felmateos@alumni.usp.br"
 };
 
