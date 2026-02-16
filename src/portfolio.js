@@ -183,7 +183,7 @@ const workExperiences = {
     {
       role: "Estagiário em Ciência de Dados",
       company: "Genial Investimentos",
-      companylogo: require("./assets/images/logoGenial.jpg"),
+      companylogo: require("./assets/images/logoGenial.png"),
       date: "Mar 2024 – Jun 2024",
       descBullets: [
         "Análise Exploratória e Tratamento de dados.",
