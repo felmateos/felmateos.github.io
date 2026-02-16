@@ -49,10 +49,11 @@ const skillsSection = {
   title: "O que eu faço?",
   subTitle: "SEMPRE EM BUSCA DE USAR A TECNOLOGIA PARA SOLUCIONAR PROBLEMAS DO MUNDO REAL! 🌎✨",
   skills: [
-    emoji(
-      "⚡ Analiso conjuntos de dados e treino modelos de Inteligência Artificial"
-    ),
-    emoji("⚡ Crio interfaces interativas e intuitivas"),
+    emoji("⚡ Transformo problemas complexos em soluções de dados com impacto real."),
+    emoji("⚡ Atuo de ponta a ponta no ciclo de vida de modelos de Machine Learning."),
+    emoji("⚡ Uno base estatística sólida a execução prática em produção."),
+    emoji("⚡ Conecto decisões técnicas a prioridades estratégicas de negócio."),
+    emoji("⚡ Trabalho com dados reais, escala real e responsabilidade real."),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -60,27 +61,27 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-        skillName: "python",
+        skillName: "Python",
         fontAwesomeClassname: "fab fa-python"
     },
     {
-        skillName: "databricks",
+        skillName: "DataBricks",
         fontAwesomeClassname: "fas fa-database"
     },
     {
-        skillName: "docker",
+        skillName: "Docker",
         fontAwesomeClassname: "fab fa-docker"
     },
     {
-        skillName: "java",
-        fontAwesomeClassname: "fab fa-java"
+        skillName: "Kedro",
+        fontAwesomeClassname: "fab fa-kaggle"
     },
     {
         skillName: "SQL",
         fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "git",
+      skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
     },
     {
@@ -88,7 +89,7 @@ https://fontawesome.com/icons?d=gallery */
         fontAwesomeClassname: "fas fa-crown"
     },
     {
-      skillName: "trello",
+      skillName: "Trello",
       fontAwesomeClassname: "fab fa-trello"
     }
   ],
@@ -100,6 +101,13 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
+    {
+      schoolName: "Universidade de São Paulo",
+      logo: require("./assets/images/logoUSP.png"),
+      subHeader: "Mestrado stricto sensu em Sistemas de Informação",
+      duration: "Março 2026",
+      desc: "Pesquisa na área de PLN: Detecção de Transtornos de Saúde Mental em Redes Sociais Usando Modelos Clinicamente Motivados",
+    },
     {
       schoolName: "Universidade de São Paulo",
       logo: require("./assets/images/logoUSP.png"),
@@ -156,21 +164,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Monitor de Disciplina",
-      company: "Diretório Acadêmico",
-      companylogo: require("./assets/images/logoDasi.jpg"),
-      date: "Mar 2023 – Jul 2023",
-      desc: "Durante o primeiro semestre de 2023, tive a oportunidade de ministrar sessões semanais didáticas para disciplina \"Introdução à Programação\".",
-      descBullets: [
-        "Monitoria realizada para calouros de Sistemas de Informação da USP Leste",
-        "Pesquisa, elaboração de material didático e realização de sessões de exercícios práticos"
-      ]
-    },
-    {
         role: "Pesquisador Bolsista",
         company: "C4AI",
         companylogo: require("./assets/images/logoC4ai.png"),
-        date: "Set 2023 – Atual",
+        date: "Set 2023 – Ago 2024",
         desc: "Financiado pela parceria USP+IBM+FAPESP, neste projeto de pesquisa em Processamento de Língua Natural sou responsável pela anotação morfossintática de tweets de políticos brasileiros sobre vacinação contra a Covid-19.",
         descBullets: [
           "Análise e tratamento de dados, rotulação usando ferramentas de PLN (Processamento de Linguagem Natural)",
@@ -179,13 +176,35 @@ const workExperiences = {
     },
     {
       role: "Estagiário em Ciência de Dados",
+      company: "Genial Investimentos",
+      companylogo: require("./assets/images/logoGenial.jpg"),
+      date: "Mar 2024 – Jun 2024",
+      descBullets: [
+        "Análise Exploratória e Tratamento de dados.",
+        "Formulação e Testes de hipótese em dados categóicos.",
+        "Sistema de monitoramento de modelos de Séries temporais em produção."
+      ]
+    },
+    {
+      role: "Estagiário em Ciência de Dados",
       company: "Itaú Unibanco",
       companylogo: require("./assets/images/logoItau.png"),
-      date: "Jun 2024 – Atual",
+      date: "Jun 2024 – Fev 2025",
       descBullets: [
         "Manipulação, tratamento de bases de dados e desenvolvimento de modelos preditivos de séries temporais;",
         "Extração de informações de documentos e imagens por meio de OCR e auxiliar a equipe com projetos de Inteligência Artificial Generativa;",
         "Desenvolvimento e configuração de esteiras de deploy para os projetos."
+      ]
+    },
+    {
+      role: "Analista de Dados",
+      company: "Itaú Unibanco",
+      companylogo: require("./assets/images/logoItau.png"),
+      date: "Fev 2025 – Fev 2026",
+      descBullets: [
+        "Desenvolvimento e implementação de solução de Reconhecimento de Entidades Nomeadas (NER) com Large Language Models (LLMs), incluindo definição da arquitetura, escolha do modelo base e estratégia de fine-tuning, atingindo F1-score de 85%",
+        " Construção de dashboard analítico no AWS QuickSight para análise da distribuição das entidades capturadas e suporte à tomada de decisão baseada em dados",
+        "Otimização do rateio de custos de produtos PJ, permitindo alocação mais rápida, confiável e escalável, com impacto financeiro estimado em R$ 16 milhões/ano."
       ]
     }
   ]
@@ -206,26 +225,44 @@ const bigProjects = {
   subtitle: "ALGUNS DOS PROJETOS QUE PARTICIPEI DURANTE MINHA TRAGETÓRIA",
   projects: [
     {
-      image: require("./assets/images/eachflixLogo.png"),
-      projectName: "EACHFLIX",
-      projectDesc: "Projeto desenvolvido para a disciplina \"Análise de Redes Sociais\" constituindo de uma interface que permite ao usuário visualizar recomendações de filmes que se adequem aos perfis da base de dados.",
+      image: require("./assets/images/darknetLogo.png"),
+      projectName: "Identificador de Ameaças na Darknet",
+      projectDesc: "O projeto aplica SNN para detecção de ameaças em tráfego de internet criptografado, inspirado em estudo publicado pela Elsevier (Neurocomputing, 2022). Utilizando o dataset CIC-IDS2017, realiza extração de fluxos, rotulação de ataques e balanceamento de classes, com modelagem em PyTorch e otimização via Optuna.",
       footerLink: [
         {
-          name: "Dar uma olhada",
-          url: "https://huggingface.co/spaces/felmateos/movie-recommender-system"
+          name: "Repositório no GitHub",
+          url: "https://github.com/felmateos/snn-darknet-traffic-classification"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/ageLogo.png"),
       projectName: "Classificador de Faixa Etária",
-      projectDesc: "Projeto desenvolvido para a disciplina \"Processamento de Lígua Natural\" constituindo de notebook jupyter que classifica a qual faixa etária que alguém pertence baseando-se em seu texto.",
+      projectDesc: "O projeto Classificador de Faixa Etária desenvolve um modelo de Processamento de Linguagem Natural (PLN) para prever a faixa etária de uma pessoa com base apenas em seu texto. Utilizando técnicas de machine learning supervisionado, o sistema foi avaliado por meio de acurácia em conjunto de teste e validação cruzada em 10 folds, além de análise por matriz de confusão.",
       footerLink: [
         {
-          name: "Dar uma olhada",
+          name: "Repositório no GitHub",
           url: "https://github.com/felmateos/age-group-classifier"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/incomeLogo.png"),
+      projectName: "Predição de Renda por Atributos Demográficos",
+      projectDesc: "O projeto envolve análise exploratória e testes de hipótese, além de um pipeline de ciência de dados para predição de renda a partir de atributos demográficos e ocupacionais, utilizando o framework Kedro e testes com pytest para garantir organização e reprodutibilidade. O problema é tratado como classificação binária, com foco em desempenho e interpretabilidade, avaliando métricas como Precision, Recall e F1-score.",
+      footerLink: [
+        {
+          name: "Repositório no GitHub",
+          url: "https://github.com/felmateos/income-analysis"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/itauLogo.png"),
+      projectName: "Extrator de Produtos em Textos Corporativos",
+      projectDesc: "Desenvolvi e implementei uma solução de Reconhecimento de Entidades Nomeadas (NER) com Large Language Models (LLMs), incluindo definição de arquitetura, escolha do modelo base e estratégia de fine-tuning, atingindo F1-score de 85%. Integrei um pipeline produtivo com AWS Athena e Amazon SageMaker para extração, processamento, armazenamento e inferência em larga escala, possibilitando a análise mensal de centenas de milhares de textos corporativos. Também construí dashboard analítico no Amazon QuickSight para monitoramento da distribuição das entidades e suporte à tomada de decisão orientada a dados, além de otimizar o rateio de custos de produtos PJ, gerando impacto financeiro estimado em R$ 16 milhões por ano.",
+      footerLink: [
+
       ]
     }
   ],
@@ -264,6 +301,19 @@ const achievementSection = {
         ]
     },
     {
+      title: "Generative AI",
+      subtitle:
+        "Certificação que compreende conceitos fundamentais de IA Generativa, engenharia de prompt e aplicações",
+      image: require("./assets/images/itauLogo.png"),
+      imageAlt: "IBM Logo",
+      footerLink: [
+        {
+          name: "Certificado",
+          url: "https://www.credly.com/badges/2ace28df-c5f7-489b-bcb4-8f7c2d502e36/linked_in_profile"
+        }
+      ]
+    },
+    {
       title: "SQL for Data Science",
       subtitle:
         "Certificação que compreende conceitos fundamentais da linguagem SQL, com ênfase em queries para ciência de dados",
@@ -273,6 +323,19 @@ const achievementSection = {
         {
           name: "Certificado",
           url: "https://www.coursera.org/account/accomplishments/verify/5SP3KNA3334L"
+        }
+      ]
+    },
+    {
+      title: "Data Science Foundations",
+      subtitle:
+        "Certificação que compreende conceitos fundamentais de Ciência de Dados, Big Data e Analytics",
+      image: require("./assets/images/ibmLogo.png"),
+      imageAlt: "IBM Logo",
+      footerLink: [
+        {
+          name: "Certificado",
+          url: "https://www.credly.com/badges/7e4276f5-0bd9-4a14-b34a-618c9293d0d0"
         }
       ]
     }
@@ -286,7 +349,7 @@ const blogSection = {
   title: "Blogs 📓",
   subtitle:
     "De vez em quando gosto de fazer uns posts no Medium. 😁",
-  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://medium.com/@felmateos/os-perigos-do-mindset-fixo-80253fe86735",
@@ -340,7 +403,7 @@ const contactInfo = {
   title: emoji("Entre em Contato ☎️"),
   subtitle:
     "Sinta-se a vontade para falar comigo! 😎",
-  email_address: "felmateos@gmail.com"
+  email_address: "felmateos@alumni.usp.br"
 };
 
 // Twitter Section
@@ -350,7 +413,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
